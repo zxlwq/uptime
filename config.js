@@ -22,15 +22,15 @@ window.Config = {
   Navi: [
     {
       text: '主页',
-      url: 'https://home.zxl.cc.ua/'
+      url: 'https://home.zxlwq.dpdns.org/'
     },    
     {
       text: 'GitHub',
-      url: 'https://github.com/zxlwq?tab=repositories'
+      url: 'https://github.com/zxlwq'
     },
     {
       text: '博客',
-      url: 'https://bloga.zxl.cc.ua/'
+      url: 'https://blog.zxlwq.dpdns.org/'
     },
   ],
 };
