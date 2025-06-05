@@ -8,6 +8,27 @@
   <script src="./config.js"></script>
   <script defer="defer" src="/static/js/main.a57ef58a.js"></script>
   <link href="/static/css/main.e4003dc1.css" rel="stylesheet">
+
+  <!-- 页面背景图样式 -->
+  <style>
+    body {
+      background-image: url('./favicon.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      width: 100vw;
+    }
+
+    /* 可选：给主内容区域加个半透明遮罩效果 */
+    #app {
+      background-color: rgba(255, 255, 255, 0.8); /* 可改为 dark 模式 rgba(0,0,0,0.5) */
+      height: 100%;
+    }
+  </style>
+
   <!-- Umami 网站统计 -->
   <script defer src="https://umami.zxlwq.dpdns.org/script.js" data-website-id="bd5cdf0f-2277-40b9-8768-361d6cc8a375"></script>
 </head>
