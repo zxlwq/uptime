@@ -21,16 +21,16 @@ window.Config = {
   // 导航栏菜单
   Navi: [
     {
-      text: '主页',
-      url: 'https://home.zxlwq.dpdns.org/'
-    },    
-    {
-      text: 'GitHub',
-      url: 'https://github.com/zxlwq'
-    },
-    {
       text: '博客',
       url: 'https://blog.zxlwq.dpdns.org/'
+    },    
+    {
+      text: '主页',
+      url: 'https://home.zxlwq.dpdns.org/'
+    },
+    {
+      text: '后台',
+      url: 'https://dashboard.uptimerobot.com/'
     },
   ],
 };
