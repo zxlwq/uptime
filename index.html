@@ -9,22 +9,20 @@
   <script defer="defer" src="/static/js/main.a57ef58a.js"></script>
   <link href="/static/css/main.e4003dc1.css" rel="stylesheet">
 
-  <!-- 页面背景图样式（随页面滚动） -->
+  <!-- 页面背景图样式：全局背景，居中，随页面滚动 -->
   <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
     body {
       background-image: url('./favicon.jpg');
       background-size: cover;
-      background-position: center;
+      background-position: center center;
       background-repeat: no-repeat;
-      background-attachment: scroll; /* 让背景图随滚动条滚动 */
-      margin: 0;
-      padding: 0;
-      min-height: 100vh;
-    }
-
-    /* 去除遮罩 */
-    #app {
-      height: 100%;
+      background-attachment: scroll;
     }
   </style>
 
