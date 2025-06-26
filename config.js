@@ -22,7 +22,7 @@ window.Config = {
   Navi: [
     {
       text: '博客',
-      url: 'https://blog.zxlwq.dpdns.org/'
+      url: 'https://cdn.zxlwq.dpdns.org/'
     },    
     {
       text: '主页',
